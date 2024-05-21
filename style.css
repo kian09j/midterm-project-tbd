@@ -430,15 +430,15 @@ img.hero-image {
  }
 
 .brand-logo {
-  width: 100px; /* Adjust the width of the logos */
-  height: auto; /* Maintain aspect ratio */
-  margin: 0 10px; /* Adjust margin between logos */
+  width: 100px; 
+  height: auto; 
+  margin: 0 10px; 
 }
 
 .brand-logo img {
   width: 150%;
   height: auto;
-  filter: grayscale(100%); /* Apply grayscale filter to make the logos grey */
+  filter: grayscale(100%); 
 }
  ------------------------------ Recent projects ------------------------------ */
 .title {
@@ -489,7 +489,7 @@ img.hero-image {
 .testimonial {
   position: relative;
   background-color: #292e47;
-  color: white; /* Set text color to contrast with the background */
+  color: white; 
   padding: 60px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -559,10 +559,10 @@ img.hero-image {
 }
 
 .testimonial-profile-img {
-  width: 50px; /* Adjust the width of the profile image */
-  height: 50px; /* Adjust the height of the profile image */
-  border-radius: 50%; /* Make the profile image circular */
-  margin-right: 10px; /* Add space between the profile image and info */
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  margin-right: 10px; 
 }
 
 /* Our Services */
@@ -570,38 +570,38 @@ img.hero-image {
 .flex-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 25px; /* Match the grid gap */
-  margin: 100px 0 75px 0; /* Match the margin of the title */
+  grid-gap: 25px; 
+  margin: 100px 0 75px 0; 
   margin-left: 180px;
   margin-right: 180px;
 }
 
 .flex-item {
-  background-color: white; /* Match the background color of the project */
+  background-color: white; 
   padding: 20px;
-  margin: 0 15px; /* Add margin left and right */
+  margin: 0 15px; 
 }
 
 .flex-item img {
-  width: 50%; /* Make the image section smaller */
-  max-height: 150px; /* Make the image section smaller */
-  object-fit: cover; /* Maintain aspect ratio */
+  width: 50%; 
+  max-height: 150px; 
+  object-fit: cover; 
 }
 
 .flex-item h3 {
-  font-size: 1.5rem; /* Increase the font size for the header */
-  margin: 20px 0; /* Adjust margin for the header */
+  font-size: 1.5rem; 
+  margin: 20px 0; 
 }
 
 .flex-item p {
-  font-size: 1.2rem; /* Increase the font size for the text */
-  margin: 0; /* Remove bottom margin for the paragraph */
+  font-size: 1.2rem; 
+  margin: 0; 
 }
 
 .flex-item a {
   text-decoration: none;
   font-weight: 500;
-  color: #072ac8; /* Match the color of the project link */
+  color: #072ac8; 
 }
 
 /* Newsletter */
